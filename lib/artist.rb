@@ -8,7 +8,7 @@ class Artist
 
   extend Memorable::ClassMethods
   extend Whatnot::Whoopsie
-include Memorable::InstanceMethods
+  include Memorable::InstanceMethods
   include Paramable
 
   @@artists = []
