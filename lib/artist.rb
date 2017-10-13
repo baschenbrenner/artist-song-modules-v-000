@@ -7,6 +7,7 @@ class Artist
   attr_reader :songs
 
   extend Memorable::ClassMethods
+  extend Whatnot::Whoopsie
 include Memorable::InstanceMethods
   include Paramable
 
