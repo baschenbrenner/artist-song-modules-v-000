@@ -1,6 +1,8 @@
 module Whatnot
   module Whoopsie
-    def 
+    def do_this
+      puts "HeyHey"
+    end
   end
-  
+
 end
