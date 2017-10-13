@@ -1,7 +1,7 @@
 require 'pry'
 require_relative './concerns/memorable'
 require_relative './concerns/ben.rb'
-require_relative './concerns/paramble.rb'
+require_relative './concerns/paramable.rb'
 
 class Artist
   attr_accessor :name
